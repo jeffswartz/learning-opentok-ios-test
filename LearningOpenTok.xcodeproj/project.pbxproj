@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1C01141AE1E3AD005B4396 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01061AE1E3AD005B4396 /* VideoToolbox.framework */; };
+		1F1C01151AE1E3AD005B4396 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01071AE1E3AD005B4396 /* libxml2.dylib */; };
+		1F1C01161AE1E3AD005B4396 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01081AE1E3AD005B4396 /* libc++.dylib */; };
+		1F1C01171AE1E3AD005B4396 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01091AE1E3AD005B4396 /* libsqlite3.dylib */; };
+		1F1C01181AE1E3AD005B4396 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C010A1AE1E3AD005B4396 /* OpenGLES.framework */; };
+		1F1C01191AE1E3AD005B4396 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C010B1AE1E3AD005B4396 /* GLKit.framework */; };
+		1F1C011A1AE1E3AD005B4396 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C010C1AE1E3AD005B4396 /* CoreTelephony.framework */; };
+		1F1C011B1AE1E3AD005B4396 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C010D1AE1E3AD005B4396 /* SystemConfiguration.framework */; };
+		1F1C011C1AE1E3AD005B4396 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C010E1AE1E3AD005B4396 /* AudioToolbox.framework */; };
+		1F1C011D1AE1E3AD005B4396 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C010F1AE1E3AD005B4396 /* CoreVideo.framework */; };
+		1F1C011E1AE1E3AD005B4396 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01101AE1E3AD005B4396 /* CoreMedia.framework */; };
+		1F1C011F1AE1E3AD005B4396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01111AE1E3AD005B4396 /* Foundation.framework */; };
+		1F1C01201AE1E3AD005B4396 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01121AE1E3AD005B4396 /* CoreGraphics.framework */; };
+		1F1C01211AE1E3AD005B4396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1C01131AE1E3AD005B4396 /* UIKit.framework */; };
 		1F3FEE661AE19ECA002E2CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FEE651AE19ECA002E2CF8 /* main.m */; };
 		1F3FEE691AE19ECA002E2CF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FEE681AE19ECA002E2CF8 /* AppDelegate.m */; };
 		1F3FEE6C1AE19ECA002E2CF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FEE6B1AE19ECA002E2CF8 /* ViewController.m */; };
@@ -16,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1C01061AE1E3AD005B4396 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		1F1C01071AE1E3AD005B4396 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		1F1C01081AE1E3AD005B4396 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1F1C01091AE1E3AD005B4396 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1F1C010A1AE1E3AD005B4396 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1F1C010B1AE1E3AD005B4396 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1F1C010C1AE1E3AD005B4396 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1F1C010D1AE1E3AD005B4396 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1F1C010E1AE1E3AD005B4396 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1F1C010F1AE1E3AD005B4396 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1F1C01101AE1E3AD005B4396 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1F1C01111AE1E3AD005B4396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F1C01121AE1E3AD005B4396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F1C01131AE1E3AD005B4396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F3FEE601AE19ECA002E2CF8 /* LearningOpenTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningOpenTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3FEE641AE19ECA002E2CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F3FEE651AE19ECA002E2CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,16 +62,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1C01201AE1E3AD005B4396 /* CoreGraphics.framework in Frameworks */,
+				1F1C01181AE1E3AD005B4396 /* OpenGLES.framework in Frameworks */,
+				1F1C011E1AE1E3AD005B4396 /* CoreMedia.framework in Frameworks */,
+				1F1C01141AE1E3AD005B4396 /* VideoToolbox.framework in Frameworks */,
+				1F1C011A1AE1E3AD005B4396 /* CoreTelephony.framework in Frameworks */,
+				1F1C01211AE1E3AD005B4396 /* UIKit.framework in Frameworks */,
+				1F1C01161AE1E3AD005B4396 /* libc++.dylib in Frameworks */,
+				1F1C01171AE1E3AD005B4396 /* libsqlite3.dylib in Frameworks */,
+				1F1C011C1AE1E3AD005B4396 /* AudioToolbox.framework in Frameworks */,
+				1F1C011F1AE1E3AD005B4396 /* Foundation.framework in Frameworks */,
+				1F1C01191AE1E3AD005B4396 /* GLKit.framework in Frameworks */,
+				1F1C011B1AE1E3AD005B4396 /* SystemConfiguration.framework in Frameworks */,
+				1F1C01151AE1E3AD005B4396 /* libxml2.dylib in Frameworks */,
+				1F1C011D1AE1E3AD005B4396 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F1C01051AE1E399005B4396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1C01061AE1E3AD005B4396 /* VideoToolbox.framework */,
+				1F1C01071AE1E3AD005B4396 /* libxml2.dylib */,
+				1F1C01081AE1E3AD005B4396 /* libc++.dylib */,
+				1F1C01091AE1E3AD005B4396 /* libsqlite3.dylib */,
+				1F1C010A1AE1E3AD005B4396 /* OpenGLES.framework */,
+				1F1C010B1AE1E3AD005B4396 /* GLKit.framework */,
+				1F1C010C1AE1E3AD005B4396 /* CoreTelephony.framework */,
+				1F1C010D1AE1E3AD005B4396 /* SystemConfiguration.framework */,
+				1F1C010E1AE1E3AD005B4396 /* AudioToolbox.framework */,
+				1F1C010F1AE1E3AD005B4396 /* CoreVideo.framework */,
+				1F1C01101AE1E3AD005B4396 /* CoreMedia.framework */,
+				1F1C01111AE1E3AD005B4396 /* Foundation.framework */,
+				1F1C01121AE1E3AD005B4396 /* CoreGraphics.framework */,
+				1F1C01131AE1E3AD005B4396 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1F3FEE571AE19ECA002E2CF8 = {
 			isa = PBXGroup;
 			children = (
 				1F3FEE621AE19ECA002E2CF8 /* LearningOpenTok */,
+				1F1C01051AE1E399005B4396 /* Frameworks */,
 				1F3FEE611AE19ECA002E2CF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -296,6 +360,7 @@
 				1F3FEE851AE19ECA002E2CF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
